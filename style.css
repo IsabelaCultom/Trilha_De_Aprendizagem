@@ -1,0 +1,22 @@
+body {
+    background-color: plum;
+}
+
+table {
+    background-color: rgba(240, 248, 255, 0.658);
+    width: 100%;
+    border: 1px solid black; 
+}
+
+#sobre {
+    display: flex;
+    justify-content: end;
+}
+
+#titulo {
+    width: 40%;
+}
+
+#espaco {
+    width: 10%;
+}

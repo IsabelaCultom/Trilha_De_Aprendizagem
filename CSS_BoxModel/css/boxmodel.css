@@ -1,0 +1,80 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*ultilizando margem como shorthand*/
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-style: solid;
+    /*padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;*/
+    padding: 50px 10 pc;/*atalho para definir respectivamente preenchimento com 50px acima e abaixo 20px*/
+
+    
+
+}
+
+h1 {
+    background-color:  rgb(188, 145, 227);
+    color: rgb(255, 255, 255);
+    
+}
+span{
+    background-color: rgb(233, 92, 116);
+    color: rgb(255, 255, 255);
+    display: block;
+    
+}
+p{
+    background-color:  rgb(188, 145, 227);
+    color: rgb(255, 255, 255);
+    display: inline;/*altera a propriedade de block-level para inline*/
+}
+div{
+    background-color: rgb(188, 145, 227);
+    border-style: solid;
+    margin: 10px;
+    padding: 5px;
+}
+.box1{
+    background-color:rgb(188, 145, 227);
+    width: 400px;
+    height: 50px;
+    position: static;
+    top: 500px;
+    left:500px;
+}
+.box2{
+    background-color: rgb(235, 135, 190);
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.box3{
+    background-color: rgb(225, 104, 126);
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+.box4{
+    background-color: rgb(225, 104, 104);
+    width: 400px;
+    height: 50px;
+    position: fixed;
+    top: 500px;
+    left: 0px;
+}
+.box5{
+    background-color: rgb(246, 130, 155);
+    width: 400px;
+    height: 50px;
+    position: sticky;
+    bottom: 200px;
+    left: 150px;
+}
